@@ -5,7 +5,8 @@ import "aos/dist/aos.css";
 import Hero from "./Hero";
 import About from "./About";
 import Skills from "./Skills";
-import Contact from './Contact'
+import Contact from './Contact';
+import Footer from "./Footer"
 function App() {
   useEffect(() => {
     AOS.init({
@@ -20,6 +21,7 @@ function App() {
       <About />
       <Skills />
       <Contact />
+      <Footer />
     </>
   );
 }

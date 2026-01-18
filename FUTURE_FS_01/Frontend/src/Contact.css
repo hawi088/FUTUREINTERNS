@@ -110,3 +110,7 @@ body{
     flex-direction: column;
     gap: 1.2rem;
 }
+#contact{
+    border-bottom: solid 1px #4b806a;
+    margin-bottom: 50px;
+}

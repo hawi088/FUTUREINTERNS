@@ -1,5 +1,8 @@
 import './About.css'
+import '../src/hooks/useAnalytics'
+import { useEffect } from 'react';
 function About(){
+    useEffect('about')
     return(
        <section className="sections content-loading" id="about">
         

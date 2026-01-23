@@ -1,5 +1,8 @@
 import './Contact.css'
+import '../src/hooks/useAnalytics'
+import { useEffect } from 'react';
 function Contact(){
+    useEffect('contact')
     return(
         <section className="sections content-loading" id="contact">
             <h2 className='section-title' data-aos="zoom-in">Get in Touch</h2>

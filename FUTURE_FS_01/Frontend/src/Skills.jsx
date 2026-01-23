@@ -1,5 +1,8 @@
 import './Skills.css'
+import '../src/hooks/useAnalytics'
+import { useEffect } from 'react';
 function Skills(){
+    useEffect('skills')
     return(
         <section className="sections" id="skills">
             <h2 className="section-title">Skills and Technologies</h2>

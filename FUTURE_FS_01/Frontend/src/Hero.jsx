@@ -1,6 +1,9 @@
 import './Hero.css'
+import '../src/hooks/useAnalytics'
 import myImage from './assets/photo_2025-07-05_10-48-11.jpg'
+import { useEffect } from 'react'
 function Hero(){
+    useEffect('hero')
     return(
         <header className='sections content-loading' id="home">
             <div className="hero-text">

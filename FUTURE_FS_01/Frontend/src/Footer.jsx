@@ -1,5 +1,8 @@
 import './Footer.css'
+import '../src/hooks/useAnalytics'
+import { useEffect } from 'react';
 function Footer(){
+    useEffect('footer')
     return(
         <>
         <div className='footer-paragraphs'>
